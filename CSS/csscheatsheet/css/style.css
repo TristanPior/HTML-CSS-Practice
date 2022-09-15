@@ -48,4 +48,18 @@ body{
     padding-left: 20px;
     /* Same as above */
     padding: 20px;
+
+    margin-top: 20px;
+    margin: 20px 0; /* 20px is (top & bottom), 0 is (left & right) */
+}
+
+/* Targets all h1 tags in class box-1 */
+.box-1 h1{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
 }
