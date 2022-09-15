@@ -196,3 +196,20 @@ a:visited{
     position: fixed; /* Always in the same spot on the page */
     top: 400px;
 }
+
+/* Pseudo classes/elements */
+.my-list li:first-child{
+    background: red; /* Can use color or image */
+}
+
+.my-list li:last-child{
+    background: blue; /* Can use color or image */
+}
+
+.my-list li:nth-child(5){
+    background: yellow;
+}
+
+.my-list li:nth-child(even){
+    background: gray;
+}
