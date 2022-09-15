@@ -21,6 +21,19 @@ body{
 }
 /* Use a . to modify a class */
 
+a{
+    text-decoration: none;
+    color:#000000;
+}
+
+a:hover{
+    color:red;
+}
+
+a:active{
+    color:green;
+}
+
 .container{
     width: 80%;
     margin: auto;
@@ -68,4 +81,20 @@ body{
     border: 3px dotted #ccc;
     padding: 20px;
     margin: 20px 0;
+}
+
+.categories{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 15px; /* Adds curved edges */
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: square;
+    list-style: none;
 }
