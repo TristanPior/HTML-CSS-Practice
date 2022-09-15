@@ -25,22 +25,34 @@ a{
     text-decoration: none;
     color:#000000;
 }
-
+/* When link is hovered over */
 a:hover{
     color:red;
 }
-
+/* Link flashes this color when clicked */
 a:active{
     color:green;
 }
-
+/* Link has been visited */
 a:visited{
-    color:black;
+    
 }
 
 .container{
     width: 80%;
     margin: auto;
+}
+
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover{
+    background:red;
+    color:white;
 }
 
 .box-1{
@@ -108,4 +120,21 @@ a:visited{
     padding-bottom: 6px;
     border-bottom: dotted 1px #333;
     /* list-style-image: url('../images/check.png'); */
+}
+
+.my-form{
+    padding: 20px;
+}
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+/* [] are used to specify fields/types and , is used to apply to all tags in the list */
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
 }
