@@ -15,11 +15,25 @@ body{
 /* Use a . to modify a class */
 
 .container{
-    width: 500px;
+    width: 80%;
     margin: auto;
 }
 
 .box-1{
     background-color:#333;
     color: rgba(255, 255, 255, 0.515);
+
+    border-top: 5px red solid;
+    border-right: 5px red solid;
+    border-bottom: 5px red solid;
+    border-left: 5px red solid;
+    /* Same as above */
+    border: 5px red solid;
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted; /* Solid, dotted, dashed, double, etc */
+
+    border-bottom: 5px red solid;
+
+    
 }
