@@ -34,6 +34,10 @@ a:active{
     color:green;
 }
 
+a:visited{
+    color:black;
+}
+
 .container{
     width: 80%;
     margin: auto;
@@ -95,6 +99,13 @@ a:active{
 
 .categories ul{
     padding: 0;
-    list-style: square;
+    padding-left: 20px;
     list-style: none;
+    list-style: square;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333;
+    /* list-style-image: url('../images/check.png'); */
 }
