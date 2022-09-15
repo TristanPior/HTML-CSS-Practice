@@ -1,0 +1,13 @@
+body{
+    background:#f4f4f4;
+    color:#555555;
+    font: 16px Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
